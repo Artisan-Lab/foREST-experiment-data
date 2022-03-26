@@ -27,7 +27,7 @@ python3 main.py
 
 | Project | Endpoint | Link | 
 |---------|---------|---------|
-| GitLab | [POST  /hooks |issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) | 
+| GitLab | [POST  /hooks | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) | 
 | GitLab | POST  /admin/clusters/add |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) | 
 | GitLab | POST  /clusters/{id}/metrics_dashboard/annotations/ |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334610) | 
 | GitLab | DELETE/PUT/GET  /users/{id}/custom_attributes/{key} |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | 
@@ -40,7 +40,7 @@ python3 main.py
 | GitLab |  POST  /groups/{id}/clusters/user |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334610) |
 | GitLab | GET /groups/{id}/custom_attributes |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | 
 | GitLab | DELETE/PUT/GET  /groups/{id}/custom_attributes/{key} |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | 
-| WordPress |  POST  /categories | | 
+| WordPress |  POST  /categories | 不要留空，写下错误描述也行 | 
 | Gitlab | POST projects/{id}/fork/{forked_from_id} | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346563) |
 
 
