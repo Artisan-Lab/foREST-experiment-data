@@ -35,8 +35,8 @@ python3 main.py
 | GitLab | /projects/{id}/custom_attributes/{key} | POST | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
 | GitLab | /projects/{id}/custom_attributes/{key} | DELETE | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
 | GitLab | /projects/{id}/repository/commits | GET |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/356922) |
-| GitLab | /projects/{id}/repository/commits | POST | experiment data/data/gitlab-project-branch-commit/forest/logs/5xx_request line 19 |
-| GitLab | /projects/{id}/repository/branches | POST | experiment data/data/gitlab-project-branch-commit/forest/logs/5xx_request line 1897 |
+| GitLab | /projects/{id}/repository/commits | POST | logfile: data/data/gitlab-project-branch-commit/forest/logs/5xx_request line 19 |
+| GitLab | /projects/{id}/repository/branches | POST | logfile: data/data/gitlab-project-branch-commit/forest/logs/5xx_request line 1897 |
 | GitLab | /groups/{id}/clusters/user | POST | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) |
 | GitLab | /groups/{id}/custom_attributes | GET | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
 | GitLab | /groups/{id}/custom_attributes/{key} | PUT |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
