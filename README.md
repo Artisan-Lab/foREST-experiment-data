@@ -21,9 +21,10 @@ Step 3. Configue to use the yamal file via [FoREST_config](https://github.com/ji
 Step 4. run
 ```bash
 python3 main.py
-
+```
 
 ## Bugs found in experiment by foREST
+
 | Project | Link | Description|
 | --------- | ---------| -------- |
 | GitLab-project | [detail](https://github.com/jiaxian-lin/foREST-experiment-data#forest-1) | POST /projects|
