@@ -25,23 +25,23 @@ python3 main.py
 
 ## All Bugs Found by foREST
 
-| Project | Link | Description | 
+| Project | Endpoint | Link | 
 |---------|---------|---------|
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) | POST  /hooks |
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) | POST  /admin/clusters/add |
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334610) | POST  /clusters/{id}/metrics_dashboard/annotations/ |
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | DELETE/PUT/GET  /users/{id}/custom_attributes/{key} |
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | GET  /users/{id}/custom_attributes |
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334610) | POST  /projects/{id}/clusters/user |
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) | POST  /projects/{id}/metrics/user_starred_dashboards |
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | DELETE/POST  /projects/{id}/custom_attributes/{key} |
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334610) | POST  /projects/{id}/export | 
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | GET  /projects/{id}/custom_attributes |
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334610) | POST  /groups/{id}/clusters/user |
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | GET /groups/{id}/custom_attributes |
-| GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | DELETE/PUT/GET  /groups/{id}/custom_attributes/{key} |
-| WordPress |  |  POST  /categories |
-| Gitlab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346563) | POST projects/{id}/fork/{forked_from_id} |
+| GitLab | [POST  /hooks |issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) | 
+| GitLab | POST  /admin/clusters/add |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) | 
+| GitLab | POST  /clusters/{id}/metrics_dashboard/annotations/ |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334610) | 
+| GitLab | DELETE/PUT/GET  /users/{id}/custom_attributes/{key} |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | 
+| GitLab | GET  /users/{id}/custom_attributes |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | 
+| GitLab | POST  /projects/{id}/clusters/user |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334610) | 
+| GitLab | POST  /projects/{id}/metrics/user_starred_dashboards |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) | 
+| GitLab | DELETE/POST  /projects/{id}/custom_attributes/{key} |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | 
+| GitLab | POST  /projects/{id}/export | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334610) | 
+| GitLab | GET  /projects/{id}/custom_attributes |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | 
+| GitLab |  POST  /groups/{id}/clusters/user |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334610) |
+| GitLab | GET /groups/{id}/custom_attributes |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | 
+| GitLab | DELETE/PUT/GET  /groups/{id}/custom_attributes/{key} |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) | 
+| WordPress |  POST  /categories | | 
+| Gitlab | POST projects/{id}/fork/{forked_from_id} | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346563) |
 
 
 ## More comparison experiments with RESTler randomwalk
