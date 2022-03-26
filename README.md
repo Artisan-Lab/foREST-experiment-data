@@ -28,20 +28,20 @@ python3 main.py
 |---------|---------|---------|
 | GitLab | POST projects/{id}/fork/{forked_from_id} | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346563) | 
 | GitLab | POST projects | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/356921) |
+| GitLab | POST  /projects/{id}/metrics/user_starred_dashboards | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) |
 | GitLab | GET /projects/{id}/repository/commits | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/356922) |
-| GitLab | POST  /admin/clusters/add | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) |
 | GitLab | POST  /projects/{id}/clusters/user | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) |
 | GitLab | POST  /projects/{id}/export |  [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) |
+| GitLab | GET  /projects/{id}/custom_attributes | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
+| GitLab | DELETE/POST  /projects/{id}/custom_attributes/{key} | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
+| GitLab | GET /groups/{id}/custom_attributes | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
 | GitLab | POST  /groups/{id}/clusters/user | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) |
+| GitLab | DELETE/PUT/GET  /groups/{id}/custom_attributes/{key} | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
+| GitLab | GET  /users/{id}/custom_attributes | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
+| GitLab | POST  /admin/clusters/add | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) |
 | GitLab | POST  /clusters/{id}/metrics_dashboard/annotations/ | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334121) |
 | GitLab | DELETE/PUT/GET  /users/{id}/custom_attributes/{key} | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
-| GitLab | DELETE/POST  /projects/{id}/custom_attributes/{key} | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
-| GitLab | GET  /projects/{id}/custom_attributes | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
-| GitLab | GET  /users/{id}/custom_attributes | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
-| GitLab | GET /groups/{id}/custom_attributes | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
-| GitLab | DELETE/PUT/GET  /groups/{id}/custom_attributes/{key} | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
 | GitLab | POST  /hooks | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) |
-| GitLab | POST  /projects/{id}/metrics/user_starred_dashboards | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) |
 | WordPress| DELETE /tags/{id} | not support |
 | WordPress| POST /users | create an existing user |
 | WordPress| DELETE /categories| not support |
