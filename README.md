@@ -35,8 +35,8 @@ python3 main.py
 | GitLab | /projects/{id}/custom_attributes/{key} | POST | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
 | GitLab | /projects/{id}/custom_attributes/{key} | DELETE | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
 | GitLab | /projects/{id}/repository/commits | GET |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/356922) |
-| GitLab | /projects/{id}/repository/commits | POST | logfile: data/data/gitlab-project-branch-commit/forest/logs/5xx_request line 19 |
-| GitLab | /projects/{id}/repository/branches | POST | logfile: data/data/gitlab-project-branch-commit/forest/logs/5xx_request line 1897 |
+| GitLab | /projects/{id}/repository/commits | POST | logfile: /data/gitlab-project-branch-commit/forest/logs/5xx_request line 19 |
+| GitLab | /projects/{id}/repository/branches | POST | logfile: /data/gitlab-project-branch-commit/forest/logs/5xx_request line 1897 |
 | GitLab | /groups/{id}/clusters/user | POST | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) |
 | GitLab | /groups/{id}/custom_attributes | GET | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
 | GitLab | /groups/{id}/custom_attributes/{key} | PUT |[issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335276) |
@@ -49,9 +49,9 @@ python3 main.py
 | GitLab | /admin/clusters/add | POST | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) |
 | GitLab | /clusters/{id}/metrics_dashboard/annotations/ | POST | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334121) |
 | GitLab | /hooks | POST | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) |
-| WordPress| /tags/{id} | DELETE | logfile: data/data/wordpress/forest/logs/5xx_request line 25 |
-| WordPress| /users | POST | logfile: data/data/wordpress/forest/logs/5xx_request line 41 |
-| WordPress| /categories| DELETE | logfile: data/data/wordpress/forest/logs/5xx_request line 17 |
+| WordPress| /tags/{id} | DELETE | logfile: /data/wordpress/forest/logs/5xx_request line 25 |
+| WordPress| /users | POST | logfile: /data/wordpress/forest/logs/5xx_request line 41 |
+| WordPress| /categories| DELETE | logfile: /data/wordpress/forest/logs/5xx_request line 17 |
 
 
 
