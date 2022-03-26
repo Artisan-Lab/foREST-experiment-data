@@ -44,7 +44,7 @@ python3 main.py
 | Gitlab | POST projects/{id}/fork/{forked_from_id} | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346563) |
 
 
-## More comparison experiments with RESTler randomwalk
+## More Comparison Study with RESTler RandomWalk
 <img src="https://user-images.githubusercontent.com/71680354/160048141-4fb2b6af-d44d-4ff0-b6c7-c597d41778c0.png" width = "500" height = "400" align=center />
 <img src="https://user-images.githubusercontent.com/71680354/160048216-5b284ba1-e2f8-4dec-b7da-dd1c9a5db918.png" width = "500" height = "400" align=center />
 
