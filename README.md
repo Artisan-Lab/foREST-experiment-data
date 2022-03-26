@@ -26,7 +26,7 @@ python3 main.py
 ## All Bugs Found by foREST
 
 | Project | Link | Description |
-|---------|---------|---------|---------|
+|---------|---------|---------|
 | GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) | POST  /hooks |
 | GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) | POST  /admin/clusters/add |
 | GitLab | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334610) | POST  /clusters/{id}/metrics_dashboard/annotations/ |
