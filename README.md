@@ -49,9 +49,9 @@ python3 main.py
 | GitLab | /admin/clusters/add | POST | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/346121) |
 | GitLab | /clusters/{id}/metrics_dashboard/annotations/ | POST | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334121) |
 | GitLab | /hooks | POST | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) |
-| WordPress| /tags/{id} | DELETE | not support delete|
-| WordPress| /users | POST | create an existing user |
-| WordPress| /categories| DELETE | not support delete|
+| WordPress| /tags/{id} | DELETE | logfile: data/data/wordpress/forest/logs/5xx_request line 25 |
+| WordPress| /users | POST | logfile: data/data/wordpress/forest/logs/5xx_request line 41 |
+| WordPress| /categories| DELETE | logfile: data/data/wordpress/forest/logs/5xx_request line 17 |
 
 
 
