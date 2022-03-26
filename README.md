@@ -43,7 +43,7 @@ python3 main.py
 | GitLab | POST  /hooks | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) |
 | GitLab | POST  /projects/{id}/metrics/user_starred_dashboards | [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/334606) |
 | WordPress| DELETE /tags/{id} | not support |
-| WordPress| POST /users | create an existing user login |
+| WordPress| POST /users | create an existing user |
 | WordPress| DELETE /categories| not support |
 
 
